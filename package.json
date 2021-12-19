@@ -1,0 +1,27 @@
+{
+  "name": "ember-minimal-template-compilation-with-babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:NullVoxPopuli/ember-minimal-template-compilation-with-babel.git",
+  "author": "NullVoxPopuli",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-proposal-decorators": "^7.15.8",
+    "@babel/preset-env": "^7.16.5",
+    "ember-template-imports": "^2.0.0"
+  },
+  "scripts": {
+    "build": "babel input.gjs --out-file output.js"
+  },
+  "browserslist": [
+    "last 1 firefox versions"
+  ],
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "1.22.17",
+    "npm": "8.3.0"
+  }
+}
